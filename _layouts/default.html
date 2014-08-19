@@ -5,15 +5,66 @@
 
     <body>
 
-    {% include header.html %}
+  
+    <div class="wrapper">
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
+  <div class="header">
+
+     <a href="#menu" class="contacts"></a>
+    <!-- KRAJ .header -->
+  </div>
+
+  <div class="head-wrapper">
+     <div class="centerpiece">
+     <!-- KRAJ .centerpiece -->
+     </div>
+
+     <div class="logotip">
+      
+
+       <img src="/images/logotip.png" alt="">
+
+     <!-- KRAJ .logotip -->
+     </div>
+
+     <div class="blog-wrapper">
+
+     <!-- KRAJ .blog-wrapper -->
+     </div>
+
+  </div>
+
+  
+   {{ content }} <!--OVDJE KRENE SADRZAJ IZ FAJLOVA KOJI ZELE KORISTITI DEFAULT LAYOUT -->
+
+
+<!-- KRAJ .wrapper -->
+</div>
+
+
+  <nav id="menu">
+   <div>
+      
+      <ul class="mm-nolist">
+         <li><a href="/">Homepage</a></li>
+         <li><a href="#">About me</a></li>
+         
+      </ul>
+   </div>
+</nav>
+
+
+
+
+
+
+   
+
 
     {% include footer.html %}
+
+
+  
 
     </body>
 </html>

@@ -1,17 +1,18 @@
 $(function() {
-				$("#menu")
-					.find("a[href!=\"#page\"]")
-					.click(function() { alert("Thank you for clicking, but that's a demo link."); return false; })
-					.end()
-					.mmenu({
+				$("#menu").mmenu({
 		classes		: "mm-light",
+		
 		counters	: true,
 		searchfield	: false,
 		header		: {
 			add			: true,
 			update		: true,
-			title		: "Contacts"
-		}
+			title		: "Menu"
+		},
+		dragOpen: {
+              open:true
+            }
+		
 					});
 			});
 
