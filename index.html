@@ -1,20 +1,136 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple thoughts of complex man</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="scripts/mmenu/src/css/jquery.mmenu.all.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 
-<div class="home">
 
-  <h1>Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+</head>
+<body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="wrapper">
 
+
+
+
+
+  <div class="header">
+
+     <a href="#menu" class="contacts"></a>
+  	<!-- KRAJ .header -->
+  </div>
+
+  <div class="head-wrapper">
+     <div class="centerpiece">
+     <!-- KRAJ .centerpiece -->
+     </div>
+
+     <div class="logotip">
+     	
+
+     	 <img src="images/logotip.png" alt="">
+
+     <!-- KRAJ .logotip -->
+     </div>
+
+     <div class="blog-wrapper">
+
+     <!-- KRAJ .blog-wrapper -->
+     </div>
+
+  </div>
+
+  <div class="posts-wrapper">
+  	
+    
+      <div class="post">
+      	
+         <div class="post-info">
+         	
+         <!-- KRAJ .post-info .-->
+         </div>
+
+         <div class="post-content">
+         	
+         	<h3>Make it rain code</h3>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam quam aliquam voluptates delectus saepe deleniti libero itaque tempora aut quis quibusdam quisquam, dolores vitae quasi iusto sint doloribus vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vel adipisci dolor veniam? Ipsam, illum eius enim possimus cum, quis odio totam facilis dignissimos ab quae eos sapiente? Inventore, asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, repellat nisi ut magni nostrum molestiae repudiandae quas ratione id cum saepe sit aliquid expedita, ipsa, repellendus modi, incidunt maiores temporibus.</p>
+         <!-- KRAJ .post-content-->
+         </div>
+
+      <!-- KRAJ .post -->
+      </div>
+
+
+      <div class="post">
+      	
+         <div class="post-info">
+         	
+         <!-- KRAJ .post-info .-->
+         </div>
+
+         <div class="post-content">
+         	
+         	<h3>Do a shizzle wizzle</h3>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima porro eius ipsa molestias natus ullam eaque iure. Quod voluptatibus dolor deleniti sequi sed tempora deserunt facilis, ab, perferendis, corporis veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nihil nobis expedita error, tempora nostrum, quisquam recusandae odio dolorum deserunt suscipit dolorem, quod ex laudantium, autem a cumque dignissimos harum.</p>
+         <!-- KRAJ .post-content-->
+         </div>
+
+      <!-- KRAJ .post -->
+      </div>
+
+
+      <div class="post">
+      	
+         <div class="post-info">
+         	
+         <!-- KRAJ .post-info .-->
+         </div>
+
+         <div class="post-content">
+         	
+         	<h3>Hapyy coding hour</h3>
+         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aperiam quam aliquam voluptates delectus saepe deleniti libero itaque tempora aut quis quibusdam quisquam, dolores vitae quasi iusto sint doloribus vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vel adipisci dolor veniam? Ipsam, illum eius enim possimus cum, quis odio totam facilis dignissimos ab quae eos sapiente? Inventore, asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, repellat nisi ut magni nostrum molestiae repudiandae quas ratione id cum saepe sit aliquid expedita, ipsa, repellendus modi, incidunt maiores temporibus.</p>
+         <!-- KRAJ .post-content-->
+         </div>
+
+      <!-- KRAJ .post -->
+      </div>
+
+
+  <!-- KRAJ .posts-wrapper -->
+  </div>
+
+
+<!-- KRAJ .wrapper -->
 </div>
+
+
+  <nav id="menu">
+   <div>
+      <p>Here's an UL that won't be styled like an app-menu:</p>
+      <ul class="mm-nolist">
+         <li><a href="/about/history/">History</a></li>
+         <li><a href="/about/team/">The team</a></li>
+         <li><a href="/about/address/">Our address</a></li>
+      </ul>
+   </div>
+</nav>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="scripts/mmenu/src/js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+<script src="scripts/garand-sticky/jquery.sticky.js" type="text/javascript"></script>
+
+<script src="scripts/main.js" type="text/javascript"></script>
+
+</body>
+</html>
