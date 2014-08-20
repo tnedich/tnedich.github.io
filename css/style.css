@@ -1,3 +1,26 @@
+/*html { 
+  background: url(../images/background.png) no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body
+{
+	height: 1200px;
+}
+*/
+/*.header
+{
+	width:100%;
+    height:400px;
+}
+
+
+*/
+
+
 html, body
 {
     padding: 0;
@@ -6,11 +29,6 @@ html, body
 html
 {
     height: 100%;
-}
-
-a, a:active, a:hover, a:visited
-{
-    text-decoration: none !important;
 }
  
 body {
@@ -55,9 +73,13 @@ p
 }
 a, a:link, a:active, a:visited, a:hover
 {
-    color: #333;
-    text-decoration: underline;
+    color: #333 !important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
 }
+
+
 a.button,
 span.button,
 select,
@@ -129,8 +151,8 @@ nav:not(.mm-menu)
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-     
-    width: 100%;
+   /*  
+    width: 100%;*/
     height: 50px;
     padding: 0 50px;
 }
@@ -202,40 +224,26 @@ body.no-labels .mm-menu .mm-collapsed,
     display: none !important;
 }
 
-.mm-header
-{
-    height:50px !important;
-}
-
-.mm-title
-{
-    padding-top: 10px !important;
-}
-
 .centerpiece
 {
    
-    width:539px;
-    height: 340px;
-	background: url(../images/centerpiece.png);
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 80px;
+   
 }
 
+/*.centerpece img
+{
+    width: 539px;
+    height: 340px;
+}
+*/
 .head-wrapper
 {
 	width: 100%;
 	height: 400px;
 }
 
-.logotip
-{
-	position: absolute;
-	top:380px;
-	right:360px;
-}
+
 
 .blog-wrapper
 {
@@ -247,16 +255,6 @@ body.no-labels .mm-menu .mm-collapsed,
 	background: url(../images/blog_bg.png);
 }
 
-/*
-
-
-.post
-{
-	border-bottom: solid 2px #ededed; 
-	padding: 20px;
-}
-
-
 
 
 .mm-ismenu.mm-light {
@@ -266,19 +264,25 @@ body.no-labels .mm-menu .mm-collapsed,
 
 
 
-*/
-
-.posts-wrapper
+.blog-bg img
 {
-    width:85% !important;
-    
+    margin-top: 20px;
+    margin-right: 20px;
 }
+
+.logotip img
+{
+    margin-top: 40px;
+}
+
+
 
 
 .post
 {
     background-color: #fff;
 }
+
 
 .post:nth-child(even) {
 
@@ -312,13 +316,7 @@ body.no-labels .mm-menu .mm-collapsed,
     color: rgb(160, 144, 160) !important
 }
 
-.comments-wrapper
+.posts
 {
-    background-color: #fff;
-}
-
-.single-post h3
-{
-    margin-bottom: 30px;
-    text-align: center;
+    margin-top: 20px;
 }

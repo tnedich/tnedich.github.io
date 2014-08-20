@@ -2,12 +2,11 @@
 layout: default
 ---
 
+<div class="posts">
 
-<div class="container-fluid posts-wrapper">
   {% for post in site.posts %}
   <div class="row post">
-   
-    
+
    
     <div class="col-md-2">
       <p class="well date-info">{{ post.date  | date: "%a, %b %d, %y"}}</p>
@@ -16,14 +15,14 @@ layout: default
 
     <div class="col-md-10 post-content">
       
-          <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+           <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
           <p>{{post.excerpt}}</p>
     </div>
 
-
-   
-  
+  <!-- KRAJ .row -->
   </div>
- {% endfor %}
 
+
+{% endfor %}
+<!-- KRAJ .posts -->
 </div>
