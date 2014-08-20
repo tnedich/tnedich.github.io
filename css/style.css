@@ -320,3 +320,13 @@ body.no-labels .mm-menu .mm-collapsed,
 {
     margin-top: 20px;
 }
+
+.comments-wrapper
+{
+	background-color: #fff;
+}
+
+.single-post h3
+{
+	text-align: center;
+}
