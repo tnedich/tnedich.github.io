@@ -311,3 +311,14 @@ body.no-labels .mm-menu .mm-collapsed,
     margin-top:25px;
     color: rgb(160, 144, 160) !important
 }
+
+.comments-wrapper
+{
+    background-color: #fff;
+}
+
+.single-post h3
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
