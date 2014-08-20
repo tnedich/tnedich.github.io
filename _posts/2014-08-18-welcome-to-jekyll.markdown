@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello world of programming"
-date:   2014-08-18 12:58:30
+date:   2014-08-18 12:58:30 +0200
 categories: jekyll update
 excerpt: "This is my first post, and I am glad that I will share my time with you."
 ---

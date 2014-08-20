@@ -3,32 +3,27 @@ layout: default
 ---
 
 
-<div class="posts-wrapper">
+<div class="container-fluid posts-wrapper">
+  {% for post in site.posts %}
+  <div class="row post">
+   
+    
+   
+    <div class="col-md-2">
+      <p class="well date-info">{{ post.date  | date: "%a, %b %d, %y"}}</p>
 
+    </div>
 
-      {% for post in site.posts %}
- 
-         <div class="post">
-        
-         <div class="post-info">
-          
-         <!-- KRAJ .post-info .-->
-         </div>
-
-         <div class="post-content">
-          
+    <div class="col-md-10 post-content">
+      
           <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
           <p>{{post.excerpt}}</p>
-
-         <!-- KRAJ .post-content-->
-         </div>
-
-      <!-- KRAJ .post -->
-      </div>
+    </div>
 
 
-    {% endfor %}
-
-
-  <!-- KRAJ .posts-wrapper -->
+   
+  
   </div>
+ {% endfor %}
+
+</div>
