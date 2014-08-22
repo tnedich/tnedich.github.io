@@ -315,6 +315,11 @@ body.no-labels .mm-menu .mm-collapsed,
     
 }
 
+.single-post 
+{
+	padding-bottom:2%;
+}
+
 .single-post h3
 {
 	text-align: center;
