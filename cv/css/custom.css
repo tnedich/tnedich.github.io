@@ -59,7 +59,7 @@ a:hover {
 }
 
 .menu-panel {
-	background: #f1103a;
+	background: #91507C;
 	width: 240px;
 	height: 100%;
 	position: fixed;
@@ -93,7 +93,7 @@ a:hover {
 	line-height: 3.5;
 	padding: 0 20px;
 	cursor: pointer;
-	background: #f1103a;
+	background: #91507C;
 	border-bottom: 1px solid #dd1338;
 }
 
@@ -139,7 +139,7 @@ a:hover {
 	height: 32px;
 	top: 0;
 	left: 0;
-	background: #f1103a;
+	background: #91507C;
 	border-radius: 50%;
 	color: #fff;
 	line-height: 30px;

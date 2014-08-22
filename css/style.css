@@ -311,9 +311,8 @@ body.no-labels .mm-menu .mm-collapsed,
 	background-color:#fff;
 }
 
-.post-content a, a:visited , a:hover, a:active
+.post-content a, .post-content a:visited , .post-content a:hover, .post-content a:active
 {
-
     color:#aca5aa !important;
     font-weight: 300 !important;
     font-size: 32px !important;
