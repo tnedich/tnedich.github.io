@@ -262,7 +262,7 @@ body.no-labels .mm-menu .mm-collapsed,
 {
     background-color: #fff;
     padding: 5px;
-    margin-top: 40px;
+    
 }
 
 
@@ -307,6 +307,7 @@ body.no-labels .mm-menu .mm-collapsed,
 .comments-wrapper
 {
 	background-color: #fff;
+    margin-top: 5%;
 }
 
 .single-post h3
