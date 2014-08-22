@@ -97,6 +97,19 @@ a:hover {
 	border-bottom: 1px solid #91507C;
 }
 
+
+.my-menu li a
+{
+        display: block;
+ 	color: #fff;
+	font-size: 1.1em;
+	line-height: 3.5;
+	padding: 0 20px;
+	cursor: pointer;
+	background: #91507C;
+	border-bottom: 1px solid #91507C;	
+}
+
 .menu-toc li a:hover,
 .menu-toc li.menu-toc-current a{
 	background: #9B5986;
