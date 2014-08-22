@@ -394,6 +394,7 @@ body.no-labels .mm-menu .mm-collapsed,
 
 .text p
 {
+    width:100% !important;
     text-align: center;
     color: #6B5555!important;
     text-decoration: none !important;
@@ -401,5 +402,6 @@ body.no-labels .mm-menu .mm-collapsed,
     font-weight: 300 !important;
     font-size: 22px;
     font-variant: normal;
+    
 
 }
