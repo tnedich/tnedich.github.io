@@ -304,10 +304,15 @@ body.no-labels .mm-menu .mm-collapsed,
     background-color: #fff;
 }
 
+.posts-wrapper
+{
+	margin-top:5%;
+}
+
 .comments-wrapper
 {
 	background-color: #fff;
-    margin-top: 5%;
+    
 }
 
 .single-post h3
