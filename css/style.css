@@ -387,8 +387,8 @@ body.no-labels .mm-menu .mm-collapsed,
 .text 
 {
     margin-top: 40px;
-    padding-left: 200px !important;
-    padding-right: 200px !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
     margin-bottom:40px;
 }
 
