@@ -54,6 +54,8 @@ a, a:link, a:active, a:visited, a:hover
     text-decoration: none !important;
     font-family: 'Roboto', sans-serif !important;
     font-weight: 300 !important;
+    font-size: 14px;
+    font-variant: normal;
 }
 
 
@@ -346,4 +348,42 @@ body.no-labels .mm-menu .mm-collapsed,
 {
     height: 50px !important;
    
+}
+
+.about
+{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.title h3
+{
+    text-align: center;
+    color: #6B5555!important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 32px;
+    font-variant: normal;
+
+}
+
+
+.text 
+{
+    margin-top: 40px;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
+
+.text p
+{
+    text-align: center;
+    color: #6B5555!important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 22px;
+    font-variant: normal;
+
 }
