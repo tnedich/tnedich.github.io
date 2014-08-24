@@ -6,5 +6,5 @@ categories: general
 excerpt: "Hello everyone, welcome to my personal/blog web page. "
 ---
 
- Sometimes I will write in English (poor writing skills, sorry :( ), sometimes in Croatian. Most of my posts will be about little code helpers that will ease your workflow. 
+ Hello everyone, welcome to my personal/blog web page. Sometimes I will write in English (poor writing skills, sorry :( ), sometimes in Croatian. Most of my posts will be about little code helpers that will ease your workflow. 
 
