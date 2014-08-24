@@ -414,3 +414,96 @@ body.no-labels .mm-menu .mm-collapsed,
     
 
 }
+
+
+.counter
+{
+    color:#fff;
+    position:absolute;
+    top:25%;
+    right:28%;
+}
+
+
+/* =Smartphones (portrait and landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+        .counter
+    {
+        color:#fff;
+        position:absolute;
+        top:22px;
+        right:45px;
+    }
+ 
+}
+ 
+/* =Smartphones (landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-width : 321px) {
+
+         .counter
+    {
+        color:#fff;
+        position:absolute;
+        top:22px;
+        right:45px;
+    }
+ 
+}
+ 
+/* =Smartphones (portrait)
+--------------------------------------------------------------------------- */
+@media only screen
+and (max-width : 320px) {
+
+         .counter
+    {
+        color:#fff;
+        position:absolute;
+        top:22px;
+        right:45px;
+    }
+  
+}
+
+
+
+
+
+/* =iPads (portrait and landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+ 
+}
+ 
+/* =iPads (landscape)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+ 
+          .counter
+    {
+        color:#fff;
+        position:absolute;
+        top:5px;
+        right:5px;
+    }
+}
+ 
+/* =iPads (portrait)
+--------------------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+ 
+}
