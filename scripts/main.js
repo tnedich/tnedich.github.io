@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#fullpage").fullpage({anchors:["firstPage","secondPage","3rdPage"],sectionsColor:["#DAC500","#1BBC9B","#7E8F7C"],navigation:!0,navigationPosition:"right",navigationTooltips:["First page","Second page","Third and last page"],responsive:900})});
+$(document).ready(function(){$("#fullpage").fullpage({anchors:["prva","druga","treca","cetvrta"],sectionsColor:["#DAC500","#1BBC9B","#7E8F7C","#FFFFFF"],navigation:!0,navigationPosition:"right",navigationTooltips:["First page","Second page","Third and last page","Cetvrta stranica"],responsive:900})});
