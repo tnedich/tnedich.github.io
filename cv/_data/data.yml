@@ -14,9 +14,9 @@ sidebar:
     # Sidebar links
     email:
     phone:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    website: tnedich.github.io #do not add http://
+    linkedin:
+    github:
     gitlab:
     bitbucket:
     twitter:
@@ -25,23 +25,19 @@ sidebar:
 
     languages:
       - idiom: English
-        level:
+        level: Advanced
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Basic
 
     interests:
-      - item: Climbing
+      - item: Cycling
         link:
 
-      - item: Snowboarding
+      - item: Programing
         link:
 
-      - item: Cooking
-        link:
+
 
 career-profile:
     title: Career Profile
